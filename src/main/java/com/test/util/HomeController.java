@@ -28,12 +28,16 @@ public class HomeController {
 
     @RequestMapping("/formhandler")
 
-        public ModelAndView formhandler(@RequestParam("firstname")String firstname, @RequestParam("lastname")String lastname, @RequestParam("email")String email) {
-        ModelAndView mv = new ModelAndView("formresponse");
-        mv.addObject("firstname", firstname);
-        mv.addObject("lastname",lastname);
-        mv.addObject("email",email);
+        public ModelAndView formhandler(@RequestParam("firstname")String firstname, @RequestParam("lastname")String lastname,
+        @RequestParam("email")String email, @RequestParam("phonenumber")String phonenumber, @RequestParam("password")String password) {
 
+        ModelAndView mv = new ModelAndView("formresponse");
+
+        mv.addObject("firstname", firstname);
+        mv.addObject("lastname", lastname);
+        mv.addObject("email", email);
+        mv.addObject("phonenumber", phonenumber);
+        mv.addObject("password", password);
         return mv;
     }
 

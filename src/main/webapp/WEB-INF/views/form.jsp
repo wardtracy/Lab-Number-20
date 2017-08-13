@@ -29,7 +29,13 @@ ${inst}
         <input type="text" name="lastname"><br>
 
     Email:<br>
-        <input type="text" name="email"><br><br>
+        <input type="text" name="email"><br>
+
+    Phone Number:<br>
+        <input type="text" name="phonenumber"><br>
+
+    Password:<br>
+        <input type="password" name="password"><br><br>
 
         <input type="radio" name="age" value="senior citizen"> Senior Citizen<br>
         (Senior Citizens receive a 10% discount)<br><br>
