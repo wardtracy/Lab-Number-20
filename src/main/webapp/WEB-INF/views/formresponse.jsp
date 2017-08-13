@@ -12,7 +12,7 @@
 </head>
 <body>
 
-Hello ${name}, thank you for submitting your info!
+Hello ${firstname}, thank you for submitting your info!
 
 
 

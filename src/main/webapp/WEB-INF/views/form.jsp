@@ -22,8 +22,11 @@ ${inst}
     <fieldset>
         <legend>Personal information:</legend>
 
-    Name:<br>
-        <input type="text" name="name"><br>
+    First Name:<br>
+        <input type="text" name="firstname"><br>
+
+    Last Name:<br>
+        <input type="text" name="lastname"><br>
 
     Email:<br>
         <input type="text" name="email"><br><br>
