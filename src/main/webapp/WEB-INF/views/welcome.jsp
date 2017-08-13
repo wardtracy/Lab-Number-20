@@ -4,13 +4,13 @@
     <title>Welcome!</title>
 </head>
 <body>
-<h1>The Java <i>This</i>, Java <i>That</i> Coffee Shop</h1>
+<h1>The Java me <i>This</i>, Java me <i>That</i> Coffee Shop</h1>
 
 ${message}<br/>
-Welcome to The JTJT Coffee Shop!!
+Welcome to Detroit's <em> #1 ranked </em> coffee shop!
 <br>
 
-<a href="userform">Go to user form</a>
+<a href="userform">Register</a>
 </body>
 
 

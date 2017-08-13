@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.swing.*;
+import javax.xml.ws.Action;
+
 @Controller
 public class HomeController {
 
@@ -12,6 +15,7 @@ public class HomeController {
 
 
     public ModelAndView helloWorld() {
+
         return new ModelAndView("welcome", "message", "Greetings and Salutations,");
     }
 
@@ -30,7 +34,6 @@ public class HomeController {
         mv.addObject("email",email);
 
         return mv;
-
     }
 
 }

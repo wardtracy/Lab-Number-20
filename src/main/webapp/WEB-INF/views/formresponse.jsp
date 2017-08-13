@@ -12,10 +12,10 @@
 </head>
 <body>
 
-Thank you for submitting your info!<br><br>
+Hello ${name}, thank you for submitting your info!
 
-${name}<br>
-${email}<br>
+
+
 
 </body>
 </html>
