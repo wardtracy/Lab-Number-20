@@ -11,12 +11,23 @@
     <title>User Form</title>
 </head>
 <body>
+
 ${inst}
 <form action="formhandler" method="post">
 
+    // fieldset and legend element for form and caption
+    <fieldset>
+        <legend>Personal information:</legend>
 
-   Name: <input type="text" name="name"><br>
-    Email: <input type="text" name="email"><br>
+    Name:<br>
+        <input type="text" name="name"><br>
+
+    Email:<br>
+        <input type="text" name="email"><br><br>
+
     <input type="submit" name="submit" value="Submit">
+    </fieldset>
+
+</form>
 </body>
 </html>

@@ -12,7 +12,7 @@ public class HomeController {
 
 
     public ModelAndView helloWorld() {
-        return new ModelAndView("welcome", "message", "Hello World");
+        return new ModelAndView("welcome", "message", "Greetings and Salutations,");
     }
 
 

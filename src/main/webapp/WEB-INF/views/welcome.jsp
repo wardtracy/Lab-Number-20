@@ -4,10 +4,10 @@
     <title>Welcome!</title>
 </head>
 <body>
-<h1>Welcome Page</h1>
-${message}<br/>
-The line above came from the model, named "message"
+<h1>The Java <i>This</i>, Java <i>That</i> Coffee Shop</h1>
 
+${message}<br/>
+Welcome to The JTJT Coffee Shop!!
 <br>
 
 <a href="userform">Go to user form</a>

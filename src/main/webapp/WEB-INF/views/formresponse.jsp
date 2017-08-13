@@ -11,8 +11,11 @@
     <title>Thank You</title>
 </head>
 <body>
-Thank you for submitting your info!
+
+Thank you for submitting your info!<br><br>
+
 ${name}<br>
 ${email}<br>
+
 </body>
 </html>
