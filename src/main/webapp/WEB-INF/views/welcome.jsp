@@ -4,7 +4,7 @@
     <title>Welcome!</title>
 </head>
 <body>
-<h1>The Java me <i>This</i>, Java me <i>That</i> Coffee Shop</h1>
+<h1> Java me <i>This</i>, Java me <i>That</i>, Coffee Shop</h1>
 
 ${message}<br/>
 Welcome to Detroit's <em> #1 ranked </em> coffee shop!
