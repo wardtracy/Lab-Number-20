@@ -31,6 +31,9 @@ public class HomeController {
         public ModelAndView formhandler(@RequestParam("firstname")String firstname, @RequestParam("lastname")String lastname,
         @RequestParam("email")String email, @RequestParam("phonenumber")String phonenumber, @RequestParam("password")String password) {
 
+
+
+
         ModelAndView mv = new ModelAndView("formresponse");
 
         mv.addObject("firstname", firstname);
